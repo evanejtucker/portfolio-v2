@@ -12,25 +12,29 @@
 </head>
 <body>
 
-    <div class="parallax" id='test-position'>
+    <div class='container-fluid'>
+
+        <div class='parallax'></div>
+
         <div class='row'>
             <div class='col'>
-                <h1>Evan Tucker</h1>
+                <ul class='main-nav'>
+                    <li class='nav-item'><a class='nav-link' href='/about'>about</a></li>
+                    <li class='nav-item'><a class='nav-link' href='/portfolio'>portfolio</a></li>
+                    <li class='nav-item'><a class='nav-link' href='/contact'>contact</a></li>
+                </ul>
             </div>
         </div>
-        <div class='row' id='nav-row'>
-            <div class='col'>
-                <h2>this should be at the bottom</h2>
-            </div>
+        
+        {{{body}}}
+        
+
+        <div class='parallax'></div>
+
+        <div class="footer">
+            <p>Copywrite 2018 Evan Tucker</p>
         </div>
-    </div>
 
-    {{{body}}}
-
-    <div class='parallax'>this should be the parallax</div>
-
-    <div class="footer">
-        <p>Copywrite 2018 Evan Tucker</p>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

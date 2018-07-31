@@ -1,15 +1,7 @@
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
 
 .parallax {
     /* The image used */
-    background-image: url("../images/fussen.JPG");
+    background-image: url("../images/leaf.jpg");
 
     /* Set a specific height */
     min-height: 300px; 
@@ -17,19 +9,31 @@ html,body
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-size: auto;
 }
 
-#test-position {
-    position: relative;
+ul.main-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-#nav-row {
-    position: absolute;
-    bottom: 0px; 
+li.nav-item {
+    float: left;
 }
 
-#about-row {
-    height: 500px;
+li a.nav-link  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+
+li a:hover {
+    background-color: #111;
+}
+
