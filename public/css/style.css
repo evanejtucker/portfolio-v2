@@ -1,0 +1,35 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/fussen.JPG");
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#test-position {
+    position: relative;
+}
+
+#nav-row {
+    position: absolute;
+    bottom: 0px; 
+}
+
+#about-row {
+    height: 500px;
+}
