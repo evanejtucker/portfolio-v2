@@ -20,20 +20,30 @@
     margin-bottom: 0;
 }
 
+#outer-nav {
+    width: 100%;
+    background-color: grey;
+}
+
+#nav-table {
+    display: table;
+    margin: 0 auto;
+    
+}
+
 ul.main-nav {
+    /* width: 100%; */
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
 }
 
 li.nav-item {
-    float: left;
+    display: inline-block;
 }
 
 li a.nav-link  {
-    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
