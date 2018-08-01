@@ -1,21 +1,24 @@
+body {
+    font-family: 'Eczar', serif;
+    background-color: #d8c6b7;
+}
 
 .parallax {
-    /* The image used */
     background-image: url("../images/vector.jpg");
-
-    /* Set a specific height */
-    min-height: 300px; 
-
-    /* Create the parallax scrolling effect */
+    min-height: 200px; 
     background-attachment: fixed;
     background-position: center;
-    /* background-repeat: no-repeat; */
     background-size: auto;
+}
+
+#name-box {
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 #name-tag {
     font-size: 2.7em;
-    color: black;
+    color: White;
     font-weight: bold;
     margin-bottom: 0;
 }
@@ -32,7 +35,6 @@
 }
 
 ul.main-nav {
-    /* width: 100%; */
     list-style-type: none;
     margin: 0;
     padding: 0;
