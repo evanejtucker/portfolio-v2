@@ -23,6 +23,7 @@ body {
     margin-bottom: 0;
 }
 
+/* navbar */
 #outer-nav {
     width: 100%;
     background-color: grey;
@@ -55,4 +56,31 @@ li a.nav-link  {
 li a:hover {
     background-color: #111;
 }
+/* end of navbar */
 
+/* about page */
+#bio-section {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#bio-image {
+    margin-right: 25px
+}
+
+/* end of about page */
+
+/* media queries */
+@media (max-width: 500px) {
+    
+    /* about page phone screen */
+    #bio-section {
+        padding: 10px;
+    }
+    #bio-image {
+        margin: 0 auto;
+    }
+    /* end of about page */
+}
