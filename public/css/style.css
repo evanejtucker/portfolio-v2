@@ -70,6 +70,10 @@ li a:hover {
     margin-right: 25px
 }
 
+#bio-section p {
+    text-indent: 30pt;
+  }
+
 /* end of about page */
 
 /* media queries */
