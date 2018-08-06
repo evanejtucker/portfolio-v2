@@ -113,6 +113,11 @@
         padding-bottom: 25px;
     }
 
+    #bio-content {
+        border-left: 1px solid #B6B6B4;
+        border-right: 1px solid #B6B6B4;
+    }
+
     #bio-image-div {
         margin-right: 25px;
         float: left;
@@ -142,6 +147,10 @@
         #bio-section {
             padding: 50px;
             padding-top: 10px;
+        }
+
+        #bio-content {
+            border: none;
         }
     /* end of about page */
     /* ================================ */
