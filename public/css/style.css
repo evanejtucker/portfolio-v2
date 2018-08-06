@@ -15,15 +15,20 @@
     }
 
     #name-box {
-        padding-left: 10px;
-        padding-top: 10px;
+        position: absolute;
+        /* width: 350px; */
+        margin-top: 20px;
+        margin-left: 20px;
     }
 
     #name-tag {
-        font-size: 2.7em;
-        color: black;
+        font-size: 3.9em;
+        color: white;
         font-weight: bold;
-        margin-bottom: 0;
+        text-align: center;
+        margin: 0 auto;
+        font-family: 'Lobster', cursive;
+        text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
     }
 
     .footer {
@@ -59,6 +64,7 @@
     #outer-nav {
         width: 100%;
         background-color: #625D5D;
+        color: white;
     }
 
     #nav-table {
@@ -112,6 +118,10 @@
         float: left;
     }
 
+    img#bio-image {
+        border-radius: 25px;
+    }
+
     #bio-section p {
         text-indent: 30pt;
         font-size: 1.2em;
@@ -139,8 +149,21 @@
 
 /* phone */
 @media (max-width: 500px) {
-    
+
     /* ================================ */
+    /* main styles */
+    #name-box {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    p#name-tag {
+        text-align: left;
+    }
+
+    /* end of main stlyes */
+    /* ================================ */
+
     /* about page  */
     #bio-section {
         padding: 10px;
@@ -156,4 +179,5 @@
     }
     /* end of about page */
     /* ================================ */
+
 }
