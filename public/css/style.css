@@ -4,7 +4,7 @@ body {
 }
 
 .parallax {
-    background-image: url("../images/vector.jpg");
+    background-image: url("../images/triangle-patterns-2.jpg");
     min-height: 200px; 
     background-attachment: fixed;
     background-position: center;
@@ -18,7 +18,7 @@ body {
 
 #name-tag {
     font-size: 2.7em;
-    color: White;
+    color: black;
     font-weight: bold;
     margin-bottom: 0;
 }
@@ -51,14 +51,23 @@ li a.nav-link  {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 1.3em;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    transition: all .6s ease;
 }
 
 li a:hover {
     background-color: #111;
+    font-size: 1.5em;
 }
 /* end of navbar */
 
 /* about page */
+.page-tag {
+    width: 100%;
+}
+
 #bio-section {
     padding-left: 150px;
     padding-right: 150px;
@@ -82,6 +91,7 @@ li a:hover {
 @media (max-width: 750px) {
     #bio-section {
         padding: 50px;
+        padding-top: 10px;
     }
 }
 
