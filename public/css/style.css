@@ -1,6 +1,7 @@
 body {
-    font-family: 'Eczar', serif;
-    background-color: #d8c6b7;
+    /* font-family: 'Eczar', serif; */
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFEBCD;
 }
 
 .parallax {
@@ -26,7 +27,7 @@ body {
 /* navbar */
 #outer-nav {
     width: 100%;
-    background-color: grey;
+    background-color: #625D5D;
 }
 
 #nav-table {
@@ -58,7 +59,7 @@ li a.nav-link  {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #B6B6B4;
     font-size: 1.5em;
 }
 /* end of navbar */
