@@ -1,104 +1,137 @@
-body {
-    /* font-family: 'Eczar', serif; */
-    font-family: 'Poppins', sans-serif;
-    background-color: #FFEBCD;
-}
+/* ----------------------------------------------------------------------------------------- */
+/* main stlyes */
+    body {
+        /* font-family: 'Eczar', serif; */
+        font-family: 'Poppins', sans-serif;
+        background-color: #FFEBCD;
+    }
 
-.parallax {
-    background-image: url("../images/triangle-patterns-2.jpg");
-    min-height: 200px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-size: auto;
-}
+    .parallax {
+        background-image: url("../images/triangle-patterns-2.jpg");
+        min-height: 200px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-size: auto;
+    }
 
-#name-box {
-    padding-left: 10px;
-    padding-top: 10px;
-}
-
-#name-tag {
-    font-size: 2.7em;
-    color: black;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-
-/* navbar */
-#outer-nav {
-    width: 100%;
-    background-color: #625D5D;
-}
-
-#nav-table {
-    display: table;
-    margin: 0 auto;
-    
-}
-
-ul.main-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li.nav-item {
-    display: inline-block;
-}
-
-li a.nav-link  {
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1.3em;
-    -webkit-transition: all .6s ease;
-    -moz-transition: all .6s ease;
-    transition: all .6s ease;
-}
-
-li a:hover {
-    background-color: #B6B6B4;
-    font-size: 1.5em;
-}
-/* end of navbar */
-
-/* about page */
-.page-tag {
-    width: 100%;
-}
-
-#bio-section {
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-#bio-image-div {
-    margin-right: 25px;
-    float: left;
-}
-
-#bio-section p {
-    text-indent: 30pt;
-    font-size: 1.2em;
-  }
-
-/* end of about page */
-
-/* media queries */
-@media (max-width: 750px) {
-    #bio-section {
-        padding: 50px;
+    #name-box {
+        padding-left: 10px;
         padding-top: 10px;
     }
+
+    #name-tag {
+        font-size: 2.7em;
+        color: black;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+
+    .footer {
+        background: #625D5D;
+        color: white;
+    }
+
+    .link-div {
+        width: 100%;
+        margin: 0 auto;
+        color: white;
+        font-size: 1.4em;
+    }
+
+    .link-div a {
+        display: block;
+        color: white;
+    }
+
+/* end of main styes */
+/* ----------------------------------------------------------------------------------------- */
+/* navbar */
+    #outer-nav {
+        width: 100%;
+        background-color: #625D5D;
+    }
+
+    #nav-table {
+        display: table;
+        margin: 0 auto;
+        
+    }
+
+    ul.main-nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li.nav-item {
+        display: inline-block;
+    }
+
+    li a.nav-link  {
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.3em;
+        -webkit-transition: all .6s ease;
+        -moz-transition: all .6s ease;
+        transition: all .6s ease;
+    }
+
+    li a:hover {
+        background-color: #B6B6B4;
+        font-size: 1.5em;
+    }
+/* end of navbar */
+/* ----------------------------------------------------------------------------------------- */
+/* about page */
+    .page-tag {
+        width: 100%;
+    }
+
+    #bio-section {
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #bio-image-div {
+        margin-right: 25px;
+        float: left;
+    }
+
+    #bio-section p {
+        text-indent: 30pt;
+        font-size: 1.2em;
+    }
+/* end of about page */
+/* ----------------------------------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* media queries */
+
+/* tablet */
+@media (max-width: 750px) {
+
+    /* ================================ */
+    /* about page */
+        #bio-section {
+            padding: 50px;
+            padding-top: 10px;
+        }
+    /* end of about page */
+    /* ================================ */
 }
 
+/* phone */
 @media (max-width: 500px) {
     
-    /* about page phone screen */
+    /* ================================ */
+    /* about page  */
     #bio-section {
         padding: 10px;
     }
@@ -107,10 +140,10 @@ li a:hover {
         width: 100%;
         padding-bottom: 20px;
     }
-
     #bio-image-div img {
         display: block;
         margin: 0 auto;
     }
     /* end of about page */
+    /* ================================ */
 }
