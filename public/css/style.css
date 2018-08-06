@@ -60,30 +60,45 @@ li a:hover {
 
 /* about page */
 #bio-section {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
-#bio-image {
-    margin-right: 25px
+#bio-image-div {
+    margin-right: 25px;
+    float: left;
 }
 
 #bio-section p {
     text-indent: 30pt;
+    font-size: 1.2em;
   }
 
 /* end of about page */
 
 /* media queries */
+@media (max-width: 750px) {
+    #bio-section {
+        padding: 50px;
+    }
+}
+
 @media (max-width: 500px) {
     
     /* about page phone screen */
     #bio-section {
         padding: 10px;
     }
-    #bio-image {
+        /* used to center bio image on phone screen */
+    #bio-image-div {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    #bio-image-div img {
+        display: block;
         margin: 0 auto;
     }
     /* end of about page */
