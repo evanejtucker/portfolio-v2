@@ -29,43 +29,6 @@
         text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
     }
 
-    /* footer */
-    .footer {
-        background: #625D5D;
-        color: white;
-        border-top: 10px solid #E5E4E2;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    ul.page-links  {
-        list-style: none;
-        margin: 0 auto;
-        padding: 10px;
-    }
-
-    ul.page-links a {
-        color: white;
-    }
-
-    #copywrite-div p {
-        margin-bottom: 5px;
-        margin-left: 0;
-    }
-
-    #contact-links a {
-        font-size: 1.4em;
-    }
-
-    #directory-links a {
-        line-height: 150%;
-    }
-
-    #list-header {
-        text-decoration: underline;
-    }
-    /* end of footer */
-
     /* navbar */
     .small-nav {
         display: none;
@@ -110,6 +73,44 @@
         font-size: 1.5em;
     }
     /* end of navbar */
+
+    /* footer */
+    .footer {
+        background: #625D5D;
+        color: white;
+        border-top: 10px solid #E5E4E2;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    ul.page-links  {
+        list-style: none;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    ul.page-links a {
+        color: white;
+    }
+
+    #copywrite-div p {
+        margin-bottom: 5px;
+        margin-left: 0;
+    }
+
+    #contact-links a {
+        font-size: 1.4em;
+    }
+
+    #directory-links a {
+        line-height: 150%;
+    }
+
+    #list-header {
+        text-decoration: underline;
+    }
+    /* end of footer */
+
 /* ----------------------------------------------------------------------------------------- */
 /* about page */
     .page-tag {
@@ -212,6 +213,11 @@
     li.nav-item {
         display: block;
     }
+
+    div#nav-table {
+        width: 100%;
+    }
+
     /* end of navbar */
 
     /* footer styles */
