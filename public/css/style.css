@@ -67,6 +67,10 @@
     /* end of footer */
 
     /* navbar */
+    .small-nav {
+        display: none;
+    }
+
     #outer-nav {
         width: 100%;
         background-color: #625D5D;
@@ -148,8 +152,8 @@
 /* tablet */
 @media (max-width: 750px) {
 
-    /* ================================ */
-    /* about page */
+/* ================================ */
+/* about page */
         #bio-section {
             padding: 50px;
             padding-top: 10px;
@@ -158,15 +162,15 @@
         #bio-content {
             border: none;
         }
-    /* end of about page */
-    /* ================================ */
+/* end of about page */
+/* ================================ */
 }
 
 /* phone */
 @media (max-width: 500px) {
 
-    /* ================================ */
-    /* main styles */
+/* ================================ */
+/* main styles */
     #name-box {
         margin-top: 10px;
         margin-left: 10px;
@@ -176,10 +180,32 @@
         text-align: left;
     }
 
-    li a.nav-link {
-        font-size: 1.2em;
+    /* navbar styles */
+    #navbar-button {
+        color: white;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 1.7em;
     }
 
+    .main-nav {
+        display: none;
+    }
+
+    .small-nav {
+        display: block;
+    }
+
+    ul.small-nav {
+        padding: 0;
+    }
+
+    li.nav-item {
+        display: block;
+    }
+    /* end of navbar */
+
+    /* footer styles */
     #contact-link-div {
         /* places at top of screen */
         order: -1;
@@ -192,9 +218,10 @@
         order: 13;
         text-align: center;
     }
+    /* end of footer */
 
-    /* end of main stlyes */
-    /* ================================ */
+/* end of main stlyes */
+/* ================================ */
 
     /* about page  */
     #bio-section {
