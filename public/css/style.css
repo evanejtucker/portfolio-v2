@@ -153,6 +153,22 @@
 @media (max-width: 750px) {
 
 /* ================================ */
+/* main styles */
+
+    /* navbar styles */
+    #navbar-button {
+        color: white;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 1.7em;
+    }
+    /* end of navbar */
+
+/* ================================ */
+/* end of main styles */
+
+
+/* ================================ */
 /* about page */
         #bio-section {
             padding: 50px;
@@ -181,13 +197,6 @@
     }
 
     /* navbar styles */
-    #navbar-button {
-        color: white;
-        margin: 0 auto;
-        width: 100%;
-        font-size: 1.7em;
-    }
-
     .main-nav {
         display: none;
     }
