@@ -176,6 +176,23 @@
         text-align: left;
     }
 
+    li a.nav-link {
+        font-size: 1.2em;
+    }
+
+    #contact-link-div {
+        /* places at top of screen */
+        order: -1;
+        padding: 0;
+        font-size: .9em;
+    }
+
+    #copywrite-div {
+        /* places at bottom of screen */
+        order: 13;
+        text-align: center;
+    }
+
     /* end of main stlyes */
     /* ================================ */
 
@@ -191,18 +208,6 @@
     #bio-image-div img {
         display: block;
         margin: 0 auto;
-    }
-
-    #contact-link-div {
-        /* places at top of screen */
-        order: -1;
-        padding: 0;
-        font-size: .9em;
-    }
-
-    #copywrite-div {
-        /* places at bottom of screen */
-        order: 13;
     }
     /* end of about page */
     /* ================================ */
