@@ -147,22 +147,21 @@
 /* ----------------------------------------------------------------------------------------- */
     .project-box {
         background: grey;
-        width: 250px;
+        width: 300px;
         margin: 10px;
         display: inline-block;
         position: relative;
     }
 
-    .project-box p {
+    /* .project-box p {
         color: red;
         height: 50px;
         margin: 0 auto;
-        vertical-align: middle;
         line-height: 50px;
         text-align: left;
         padding-left: 10px;
         font-size: 1.3em;
-    }
+    } */
 
     .expand-btn {
         background: transparent;
@@ -197,10 +196,6 @@
         width: 100%;
         font-size: 1.7em;
     }
-    /* end of navbar */
-
-/* ================================ */
-/* end of main styles */
 
 
 /* ================================ */
@@ -213,8 +208,10 @@
         #bio-content {
             border: none;
         }
-/* end of about page */
+
 /* ================================ */
+/* portfolio page */
+
 }
 
 /* phone */
@@ -229,6 +226,7 @@
 
     p#name-tag {
         text-align: left;
+        font-size: 3em;
     }
 
     /* navbar styles */
@@ -251,7 +249,6 @@
     div#nav-table {
         width: 100%;
     }
-    /* end of navbar */
 
     /* footer styles */
     #contact-link-div {
@@ -266,7 +263,6 @@
         order: 13;
         text-align: center;
     }
-    /* end of footer */
 
 /* end of main stlyes */
 /* ================================ */
@@ -285,7 +281,28 @@
         margin: 0 auto;
     }
 
-    /* Portfolio page */
-    /* ================================ */
+/* Portfolio page */
+/* ================================ */
+
+}
+
+/* for very narrow phone screens */
+@media(max-width: 340px) {
+    
+/* main styles */
+/* ================================ */
+
+
+/* about styles */
+/* ================================ */
+
+
+
+/* Portfolio page */
+/* ================================ */
+    .project-box {
+        width: 290px;
+        margin-left: 0;
+    }
 
 }
