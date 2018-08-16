@@ -1,5 +1,8 @@
 /* ----------------------------------------------------------------------------------------- */
 /* main stlyes */
+    ::-webkit-scrollbar { 
+        display: none; 
+    }
 
     body {
         font-family: 'Poppins', sans-serif;
@@ -145,42 +148,39 @@
 
 /* Portfolio Page */
 /* ----------------------------------------------------------------------------------------- */
+
+    #projects-col {
+        text-align: center;
+    }
+
     .project-box {
         background: grey;
         width: 300px;
+        height: 400px;
         margin: 10px;
         display: inline-block;
         position: relative;
+        overflow: auto;
+        border: 2px solid black;
+        border-radius: 10px;
     }
 
     .project-btn {
         width: 100%;
         height: 50px;
         background: transparent;
-        color: red;
+        color: White;
         text-align: center;
         font-size: 1.5em;
         border: none;
     }
 
-    i.plus-icon {
+    i.expand-btn {
         float: right;
         font-size: 1.3em;
         display: none;
     }
 
-    .expand-btn {
-        background: transparent;
-        float: right;
-        width: 50px;
-        height: 50px;
-        border: none;
-        color: red;
-    }
-
-    .porject-box button {
-        
-    }
 
  /* Contact Page */
 /* ----------------------------------------------------------------------------------------- */
@@ -270,10 +270,9 @@
         text-align: center;
     }
 
-/* end of main stlyes */
+/* About page */
 /* ================================ */
 
-    /* about page  */
     #bio-section {
         padding: 10px;
     }
@@ -290,11 +289,15 @@
 /* Portfolio page */
 /* ================================ */
 
+    .project-box {
+        height: auto;
+    }
+
     .project-btn {
         text-align: left;
     }
 
-    i.plus-icon {
+    i.expand-btn {
         display: block;
     }
 

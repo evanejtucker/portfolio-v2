@@ -35,11 +35,19 @@ $(document).ready(function() {
         $('.project-btn').on('click', function() {
             if ($(this).siblings().css('display') !== 'none') {
                 console.log('display');
+                // hide content
                 $(this).siblings().hide(1000);
+                // change the icon from minus to plus
+                $(this).children("span").children('i').removeClass('fa-minus-square');
+                $(this).children("span").children('i').addClass('fa-plus-square');
                 return;
             } else {
                 console.log('no dispaly');
+                // show content
                 $(this).siblings().show(1000);
+                // change icon from plus to minus
+                $(this).children("span").children('i').removeClass('fa-plus-square');
+                $(this).children("span").children('i').addClass('fa-minus-square');
                 return;
             }
         });
