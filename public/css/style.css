@@ -153,15 +153,21 @@
         position: relative;
     }
 
-    /* .project-box p {
-        color: red;
+    .project-btn {
+        width: 100%;
         height: 50px;
-        margin: 0 auto;
-        line-height: 50px;
-        text-align: left;
-        padding-left: 10px;
+        background: transparent;
+        color: red;
+        text-align: center;
+        font-size: 1.5em;
+        border: none;
+    }
+
+    i.plus-icon {
+        float: right;
         font-size: 1.3em;
-    } */
+        display: none;
+    }
 
     .expand-btn {
         background: transparent;
@@ -283,6 +289,14 @@
 
 /* Portfolio page */
 /* ================================ */
+
+    .project-btn {
+        text-align: left;
+    }
+
+    i.plus-icon {
+        display: block;
+    }
 
 }
 
