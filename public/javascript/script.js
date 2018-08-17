@@ -43,7 +43,7 @@ $(document).ready(function() {
                 return;
             } else {
                 console.log('no dispaly');
-                // show content
+                // show content 
                 $(this).siblings().show(1000);
                 // change icon from plus to minus
                 $(this).children("span").children('i').removeClass('fa-plus-square');
@@ -58,7 +58,7 @@ $(document).ready(function() {
         if (x.matches) { // If media query matches
             $('.project-btn').attr('disabled', false);
             $('.content').hide();
-            toggler();
+            // toggler();
         } else {
             $('.content').show();
             $('.project-btn').attr('disabled', true);
@@ -71,6 +71,7 @@ $(document).ready(function() {
 
     // Call listener function when page loads
     checkWidth(x) 
+    toggler();
     // call checkWidth function on state changes
     x.addListener(checkWidth) 
 
