@@ -4,6 +4,11 @@
         display: none; 
     }
 
+    table{
+        table-layout: fixed;
+        width: 100%;
+    }
+
     body {
         font-family: 'Poppins', sans-serif;
         background-color: #FFEBCD;
