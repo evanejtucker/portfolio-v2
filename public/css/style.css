@@ -154,6 +154,10 @@
 /* Portfolio Page */
 /* ----------------------------------------------------------------------------------------- */
     
+    #project-row {
+        margin-top: 25px;
+    }
+
     #projects-col {
         text-align: center;
     }
@@ -201,7 +205,18 @@
         width: 100%;
     }
 
-    
+    #skills-row {
+        margin-top: 25px;
+    }
+
+    .skill-title {
+        text-align: center;
+    }
+
+    #skills-box {
+        margin-bottom: 25px;
+    }
+
  /* Contact Page */
 /* ----------------------------------------------------------------------------------------- */
 
