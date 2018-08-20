@@ -4,7 +4,7 @@ $(document).ready(function() {
 // global Variables
 // ------------------------------------------------------------------->
     
-    var x = window.matchMedia("(max-width: 700px)");
+    var x = window.matchMedia("(max-width: 820px)");
 
     var projectsArray = [];
 
