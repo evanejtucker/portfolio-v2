@@ -65,6 +65,7 @@ $(document).ready(function() {
         }
     }
 
+
 // main process
 // ------------------------------------------------------------------->
     
@@ -75,8 +76,9 @@ $(document).ready(function() {
     // call checkWidth function on state changes
     x.addListener(checkWidth) 
 
-    
-    console.log(projectsArray);
+    $('.important-link').on('click', function() {
+        window.open(($(this).attr('url')));
+    });
     
     
 });

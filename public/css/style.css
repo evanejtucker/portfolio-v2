@@ -175,6 +175,10 @@
         border-radius: 10px;
     }
 
+    .project-box:hover {
+        border: 5px solid darkslategrey;
+    }
+
     .project-btn {
         width: 100%;
         height: 50px;
@@ -219,7 +223,63 @@
 
  /* Contact Page */
 /* ----------------------------------------------------------------------------------------- */
+    #contact-row {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
 
+    .form-control {
+        background: whitesmoke;
+    }
+
+    .contact-box {
+        width: 80%;
+        position: relative;
+        margin: 0 auto;
+        padding-bottom: 20px;  
+    }
+
+    .important-links-box {
+        position: relative;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .important-link {
+        width: 300px;
+        height: 70px;
+        background: whitesmoke;
+        border-radius: 10px;
+        border: 2px solid black;
+        margin-bottom: 10px;
+        font-family: 'Righteous', cursive;
+    }
+
+    .important-link:hover {
+        border: 4px solid black;
+        color: indigo;
+        background: gainsboro;
+        font-size: 1.1em;
+    }
+
+    .link-text:hover {
+        margin-left: 30px;
+    }
+
+    img.link-image {
+        float: right;
+        width: 60px;
+        height: 60px;
+        margin: 5px;
+    }
+
+    p.link-text {
+        text-align: left;
+        font-size: 1.8em;
+        font-weight: bold;
+        line-height: 70px;
+        margin-left: 10px;
+    }
 
 /* ----------------------------------------------------------------------------------------- */
 /* media queries */
@@ -347,6 +407,10 @@
     i.expand-btn {
         display: block;
     } */
+
+
+/* contact page */
+/* ================================ */
 
 }
 
