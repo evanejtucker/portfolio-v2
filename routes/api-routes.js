@@ -5,7 +5,6 @@ module.exports = (app)=> {
 
     var transporter = nodemailer.createTransport({
         host: 'gmail.com',
-        secure: true,
         auth: {
             user: emailConfig.email,
             pass: emailConfig.password
@@ -20,12 +19,14 @@ module.exports = (app)=> {
             to: emailConfig.email, // list of receivers
             subject: req.body.subject, // Subject line
             html: "<p>" + req.body.message + "</p>"
-          };
-          transporter.sendMail(mailOptions, function (err, info) {
+        };
+        console.log(mailOptions);
+        transporter.sendMail(mailOptions, function (err, info) {
             if(err)
-              console.log(err)
+                console.log(err)
             else
-              console.log(info);
-         });
-    })
+                console.log(info);
+        });
+    });
+
 };
