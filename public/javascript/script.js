@@ -65,6 +65,25 @@ $(document).ready(function() {
         }
     }
 
+    function submitMessage() {
+        event.preventDefault();
+        var email = $('#inputEmail').val().trim();
+        var subject = $('#inputSubject').val().trim();
+        var message = $('#inputMessage').val().trim();
+        $.each($(".email-form"), function() {
+            $(this).removeClass('empty-field');
+            if($(this).val() === '') {
+                console.log('empty')
+                $(this).addClass('empty-field');
+            }
+        });
+
+        if (email && subject && message ) {
+            console.log('every has been filled out');
+        }
+        
+    }
+
 
 // main process
 // ------------------------------------------------------------------->
@@ -78,6 +97,10 @@ $(document).ready(function() {
 
     $('.important-link').on('click', function() {
         window.open(($(this).attr('url')));
+    });
+
+    $('#messageSubmit').on('click', function() {
+        submitMessage();
     });
     
     
