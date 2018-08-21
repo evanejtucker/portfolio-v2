@@ -80,6 +80,25 @@ $(document).ready(function() {
 
         if (email && subject && message ) {
             console.log('every has been filled out');
+            var email = {
+                email: email,
+                subject: subject,
+                message: message
+            }
+
+            $.ajax({
+                url: '/api/email',
+                method: 'post',
+                data: email
+            }).done(function(data) {
+                console.log('post successful!');
+
+                $('#inputEmail').val('');
+                $('#inputSubject').val('');
+                $('#inputMessage').val('');
+
+                // add logic to let user know the message was sent
+            });
         }
         
     }

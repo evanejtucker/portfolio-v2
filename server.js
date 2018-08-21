@@ -13,6 +13,7 @@ app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 require('./routes/home-routes')(app);
+require('./routes/api-routes')(app);
  
 app.listen(port, (err)=> {
     if (err) {
