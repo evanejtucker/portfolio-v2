@@ -15,7 +15,15 @@
     }
 
     .parallax {
-        background-image: url("../images/triangle-patterns-2.jpg");
+        background-image: url("../images/backgrounds/lagos.JPG");
+        min-height: 200px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-size: auto;
+    }
+
+    .parallax-2  {
+        background-image: url("../images/backgrounds/lagos.JPG");
         min-height: 200px; 
         background-attachment: fixed;
         background-position: center;
@@ -130,11 +138,12 @@
         width: 100%;
     }
 
-    #bio-section {
+    #bio-section, #edu-section {
         padding-left: 150px;
         padding-right: 150px;
         padding-top: 25px;
         padding-bottom: 25px;
+        height: auto;
     }
 
     #bio-image-div {
@@ -152,12 +161,14 @@
 
     .education-box {
         width: 100%;
-        text-align: center
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
     }
 
     .education {
         width: 300px;
-        height: 300px;
+        height: auto;
         vertical-align: top;
         position: relative;
         display: inline-block;
@@ -170,11 +181,14 @@
         width: 90%;
     }
 
+
 /* Portfolio Page */
 /* ----------------------------------------------------------------------------------------- */
     
     #project-row {
         margin-top: 25px;
+        /* padding-left: 20px;
+        padding-right: 20px; */
     }
 
     #projects-col {
@@ -383,13 +397,17 @@
 
 /* ================================ */
 /* about page */
-        #bio-section {
+        #bio-section, #edu-section {
             padding: 50px;
             padding-top: 10px;
         }
 
         #bio-content {
             border: none;
+        }
+
+        .education {
+            width: 250px;
         }
 
 /* ================================ */
@@ -466,7 +484,7 @@
 /* About page */
 /* ================================ */
 
-    #bio-section {
+    #bio-section, #edu-section {
         padding: 10px;
     }
         /* used to center bio image on phone screen */
@@ -481,18 +499,6 @@
 
 /* Portfolio page */
 /* ================================ */
-
-    /* .project-box {
-        height: auto;
-    }
-
-    .project-btn {
-        text-align: left;
-    }
-
-    i.expand-btn {
-        display: block;
-    } */
 
 
 /* contact page */
