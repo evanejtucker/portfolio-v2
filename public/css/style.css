@@ -137,11 +137,6 @@
         padding-bottom: 25px;
     }
 
-    #bio-content {
-        border-left: 1px solid #B6B6B4;
-        border-right: 1px solid #B6B6B4;
-    }
-
     #bio-image-div {
         margin-right: 25px;
         float: left;
@@ -153,6 +148,26 @@
 
     #bio-section p {
         font-size: 1.2em;
+    }
+
+    .education-box {
+        width: 100%;
+        text-align: center
+    }
+
+    .education {
+        width: 300px;
+        height: 300px;
+        vertical-align: top;
+        position: relative;
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .edu-img {
+        text-align: center;
+        height: 80px;
+        width: 90%;
     }
 
 /* Portfolio Page */
