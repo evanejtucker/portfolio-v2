@@ -430,6 +430,10 @@
         width: 100%;
     }
 
+    #outer-nav {
+        min-height: 40px;
+    }
+
     /* footer styles */
     #contact-link-div {
         /* places at top of screen */
