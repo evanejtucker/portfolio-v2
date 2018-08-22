@@ -38,6 +38,10 @@
         text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
     }
 
+    #name-tag:hover {
+        text-shadow: -4px 0 darkslategrey, 0 4px darkslategrey, 4px 0 darkslategrey, 0 -4px darkslategrey;
+    }
+
     /* navbar */
     .small-nav {
         display: none;
@@ -47,12 +51,12 @@
         width: 100%;
         background-color: #625D5D;
         color: white;
+        min-height: 80px;
     }
 
     #nav-table {
         display: table;
-        margin: 0 auto;
-        
+        margin: 0 auto; 
     }
 
     ul.main-nav {

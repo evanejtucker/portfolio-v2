@@ -121,6 +121,10 @@ $(document).ready(function() {
     $('#messageSubmit').on('click', function() {
         submitMessage();
     });
+
+    $('#name-tag').on('click', function() {
+        window.open('/');
+    });
     
     
 });
