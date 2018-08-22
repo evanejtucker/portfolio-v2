@@ -5,6 +5,8 @@ module.exports = (app)=> {
 
     var transporter = nodemailer.createTransport({
         host: 'gmail.com',
+        port: 400,
+        secure: true,
         auth: {
             user: emailConfig.email,
             pass: emailConfig.password
