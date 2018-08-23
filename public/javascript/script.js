@@ -65,8 +65,9 @@ $(document).ready(function() {
         }
     }
 
+    // check to see if all form fields have been filled out,
+    // if yes, enable submit button
     function submitMessage() {
-        event.preventDefault();
         var email = $('#inputEmail').val().trim();
         var subject = $('#inputSubject').val().trim();
         var message = $('#inputMessage').val().trim();
@@ -75,38 +76,21 @@ $(document).ready(function() {
             if($(this).val() === '') {
                 console.log('empty')
                 $(this).addClass('empty-field');
+                // $('#messageSubmit').attr('disabled', true);
             }
         });
-
-        if (email && subject && message ) {
-            console.log('every has been filled out');
-            var email = {
-                email: email,
-                subject: subject,
-                message: message
-            }
-
-            $.ajax({
-                url: '/api/email',
-                method: 'post',
-                data: email
-            }).done(function(data) {
-                console.log('post successful!');
-
-                $('#inputEmail').val('');
-                $('#inputSubject').val('');
-                $('#inputMessage').val('');
-
-                // add logic to let user know the message was sent
-            });
+        if(email && subject && message) {
+            $('#messageSubmit').attr('disabled', false);
         }
-        
     }
 
 
 // main process
 // ------------------------------------------------------------------->
-    
+
+    // disable send email button on page load
+    $('#messageSubmit').attr('disabled', true);
+
 
     // Call listener function when page loads
     checkWidth(x) 
@@ -118,12 +102,16 @@ $(document).ready(function() {
         window.open(($(this).attr('url')));
     });
 
-    $('#messageSubmit').on('click', function() {
+    $('#email-form').on('keyup', function() {
         submitMessage();
-    });
+    })
 
     $('#name-tag').on('click', function() {
         window.open('/');
+    });
+
+    $('.resume-box').on('click', function() {
+        window.open('./Evan-Tucker-Resume.pdf');
     });
     
     

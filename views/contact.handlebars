@@ -3,19 +3,19 @@
     <div class='col-12 col-md-8'>
         <div class='contact-box'>
             <h1>Send me a message!</h1>
-            <form>
+            <form action="https://formspree.io/eej.tucker@gmail.com" method="POST" id='email-form'>
                 <div class="form-group">
                     <label for="inputEmail">Email address</label>
-                    <input type="email" class="form-control email-form" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                    <input type="email" name='email' class="form-control email-form" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
                     <label for="inputSubject">Subject</label>
-                    <input type="text" class="form-control email-form" id="inputSubject" placeholder="subject">
+                    <input type="text" name="_subject" class="form-control email-form" id="inputSubject" placeholder="subject">
                 </div>
                 <div class="form-group">
                     <label for="inputMessage">Message</label>
-                    <textarea class="form-control email-form" id="inputMessage" rows="6"></textarea>
+                    <textarea class="form-control email-form" name="message" id="inputMessage" rows="6"></textarea>
                 </div>
                 <button type='submit' id='messageSubmit' class="btn btn-primary">Submit</button>
             </form>
