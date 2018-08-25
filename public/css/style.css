@@ -397,6 +397,16 @@
 /* ================================ */
 /* main styles */
 
+    .parallax, .parallax-2 {
+        background-image: url('/images/backgrounds/lagos.JPG');
+        background-size: cover;
+        background-attachment: initial;
+    }
+
+    .parallax-2 {
+        background-image: url('/images/backgrounds/granada.JPG');
+    }
+
     /* navbar styles */
     #navbar-button {
         color: white;
