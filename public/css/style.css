@@ -445,8 +445,13 @@
 /* main styles */
 
     .parallax, .parallax-2 {
-        background-image: url('/images/backgrounds/neuschweinstein.JPG');
+        background-image: url('/images/backgrounds/lagos.JPG');
         background-size: cover;
+        background-attachment: initial;
+    }
+
+    .parallax-2 {
+        background-image: url('/images/backgrounds/neuschweinstein.JPG');
     }
 
     #name-box {
