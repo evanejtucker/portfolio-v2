@@ -85,6 +85,8 @@ $(document).ready(function() {
     }
 
 
+
+
 // main process
 // ------------------------------------------------------------------->
 
@@ -113,6 +115,5 @@ $(document).ready(function() {
     $('.resume-box').on('click', function() {
         window.open('./Evan-Tucker-Resume.pdf');
     });
-    
     
 });

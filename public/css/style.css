@@ -420,6 +420,10 @@
         font-size: 1.7em;
     }
 
+    #outer-nav {
+        min-height: 40px;
+    }
+
 
 /* ================================ */
 /* about page */
@@ -500,9 +504,9 @@
         width: 100%;
     }
 
-    #outer-nav {
+    /* #outer-nav {
         min-height: 40px;
-    }
+    } */
 
     /* footer styles */
     #contact-link-div {
@@ -552,6 +556,11 @@
 
 /* about styles */
 /* ================================ */
+
+    img#bio-image {
+        width: 250px;
+        height: 332.5px;
+    }
 
 
 
