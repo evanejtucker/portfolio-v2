@@ -113,7 +113,7 @@ $(document).ready(function() {
     });
 
     $('.resume-box').on('click', function() {
-        window.open('./Evan-Tucker-Resume.pdf');
+        window.open('./Evan-Tucker-Resume-V2.pdf');
     });
     
 });
